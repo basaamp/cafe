@@ -25,7 +25,7 @@ class App extends Component {
           {/*--<img src={logo} className="App-logo" alt="logo" /> */}
          <h1 style = {{ marginTop: 88 }}>Cafe</h1>
 <div className = "Home" style={{display: this.state.Home}} >
-<div className = "deals" style={{height: 60 + 'vh', justifyContent: 'flex-start', flexDirection: 'colmn', width: 100 + '%'}}>
+<div className = "deals" style={{height: 60 + 'vh', justifyContent: 'flex-start', flexDirection: 'colmn', width: 100 + '%', backgroundColor: 'white'}}>
   <div className="Deal" style={{height: 74 + '%', flexDirection: 'row', alignItems: 'flex-start', backgroundColor: 'white' }}>
   <img style={{height: 100 + '%', width: 50 + '%'}} src={'http://images.indulgexpress.com/uploads/user/imagelibrary/2017/11/2/original/Cofeehouses.jpg'} className="App-logo" alt="logo" />
     <img style={{height: 100 + '%', width: 50 + '%'}} src={'http://images.indulgexpress.com/uploads/user/imagelibrary/2017/11/2/original/Cofeehouses.jpg'} className="App-logo" alt="logo" />
